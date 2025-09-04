@@ -1,0 +1,278 @@
+:root {
+   --font-family: "Poppins", sans-serif;
+   --second-family: "Inter", sans-serif;
+   --third-family: "DM Sans", sans-serif;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+a {
+   text-decoration: none;
+}
+
+ul,
+ol {
+   list-style: none;
+}
+
+.container {
+   max-width: 1278px;
+   margin: auto;
+}
+
+.row {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+body {
+   font-family: var(--font-family);
+}
+
+
+header {
+   width: 100%;
+   position: absolute;
+   background-color: transparent;
+   color: white;
+   padding: 40px 0;
+}
+
+header a {
+   color: white;
+}
+
+header .menu {
+   text-align: center;
+   width: 60%;
+}
+
+
+header .menu li {
+   display: inline-block;
+   padding: 0 24px;
+}
+
+header .logo,
+header .cartItem {
+   width: 20%;
+}
+
+header .cartItem {
+   text-align: right;
+}
+
+
+header .cartCount {
+   position: absolute;
+   color: white;
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   background-color: #E58411;
+   font-size: 12px;
+   font-weight: 500;
+   text-align: center;
+   line-height: 20px;
+   right: -6px;
+}
+
+
+header .cartItem a {
+   font-size: 24px;
+   position: relative;
+}
+
+
+header .menu a {
+   font-weight: 900;
+   font-size: 18px;
+   color: #fff;
+}
+
+header .menu a span {
+   margin-left: 8px;
+}
+
+header .subMenu {
+   margin-top: 80px;
+   opacity: 0;
+   visibility: hidden;
+   position: absolute;
+   background: transparent;
+   width: 250px;
+   transition: 0.5s;
+   border-radius: 20px;
+   
+}
+
+header .subMenu li {
+   display: block;
+   padding: 0;
+}
+
+header .subMenu li a {
+   color: rgb(255, 255, 255);
+   font-weight: 500;
+   font-size: 15px;
+   padding: 8px 16px;
+   display: block;
+   text-align: left;
+   transition: 0.45s;
+}
+
+header .subMenu li a:hover {
+   padding-left: 24px;
+}
+
+header .menu li:hover .subMenu {
+   margin-top: 0;
+   opacity: 1;
+   visibility: visible;
+
+}
+
+.banner {
+   background-image: url(../image/Rectangle\ 1441.png);
+   background-size: cover;
+   background-position: bottom;
+   padding-top: 161px;
+   color: white;
+   text-align: center;
+   height: 1084px;
+
+}
+
+.headerbox {
+   font-family: var(--font-family);
+   font-weight: 700;
+   font-size: 60px;
+   line-height: 98px;
+   letter-spacing: -0.01em;
+   text-transform: capitalize;
+   text-align: center;
+   color: #fff;
+}
+
+.headerbox p {
+   padding-top: 9px;
+   font-family: var(--font-family);
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 160%;
+   text-align: center;
+   color: #fff;
+   opacity: 0.8;
+}
+
+.headerbox form {
+   padding-top: 10px;
+   position: relative;
+   width: 100%;
+   margin: auto;
+   max-width: 344px;
+
+}
+
+.headerbox input {
+   position: relative;
+   margin-top: 20px;
+   width: 100%;
+   display: block;
+   height: 56px;
+   border-radius: 42px;
+   border: 0.86px solid rgba(255, 255, 255, 0.6);
+   background: rgba(255, 255, 255, 0.15);
+   backdrop-filter: blur(8px);
+   padding: 8px 8px 8px 20px;
+}
+
+.headerbox button {
+
+   position: absolute;
+   right: 10px;
+   top: 37px;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   background: #e58411;
+   color: white;
+   border: none;
+
+
+}
+
+.headerbox img {
+   position: absolute;
+   padding: 10px;
+   right: 10px;
+}
+
+.chooseus {
+   padding: 120px 0 103px;
+}
+
+.chooseus .title {
+   padding-left: 20px;
+   width: 30%;
+   font-family: var(--font-family);
+   font-weight: 700;
+   font-size: 42px;
+   color: #1e1e1e;
+}
+
+
+.chooseus .cardWrapper {
+   width: 70%;
+}
+
+.chooseus .row {
+   justify-content: space-between;
+}
+
+.chooseus .cardWrapper .card {
+   width: calc(33.33% - 28px);
+   background-color: white;
+
+}
+
+.chooseus .cardWrapper .card h3 {
+   font-family: var(--font-family);
+   font-weight: 600;
+   font-size: 24px;
+   color: #1e1e1e;
+   opacity: 0.9;
+}
+
+.chooseus .cardWrapper .card p {
+   font-family: var(--font-family);
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 185%;
+   color: #1e1e1e;
+   opacity: 0.8;
+   margin: 14px 0 1px;
+}
+
+.chooseus .cardWrapper .card a {
+   font-family: var(--font-family);
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 185%;
+   color: #e58411;
+}
+
+.optionbox {
+   background: #f7f7f7;
+}
+
+.sellinghead {
+   background: #f7f7f7;
+   width: 1440px;
+height: 217px;
+}
+
